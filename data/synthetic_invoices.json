@@ -1,0 +1,42 @@
+[
+  {
+    "invoice_id": "INV-001",
+    "supplier": "Synthetic Supplier A",
+    "amount": 1850,
+    "currency": "KES",
+    "date": "2026-01-05",
+    "notes": "Paid"
+  },
+  {
+    "invoice_id": "INV-002",
+    "supplier": "Synthetic Supplier B",
+    "amount": -350,
+    "currency": "KES",
+    "date": "2026-01-07",
+    "notes": "Credit adjustment requires review"
+  },
+  {
+    "invoice_id": "INV-002",
+    "supplier": "Synthetic Supplier B",
+    "amount": 350,
+    "currency": "KES",
+    "date": "2026-01-07",
+    "notes": "Duplicate invoice identifier"
+  },
+  {
+    "invoice_id": "INV-004",
+    "supplier": "Synthetic Supplier C",
+    "amount": "700",
+    "currency": "KES",
+    "date": "07/01/2026",
+    "notes": "contact: demo@example.org"
+  },
+  {
+    "invoice_id": "INV-005",
+    "supplier": "Synthetic Supplier D",
+    "amount": 2400,
+    "currency": "KSH",
+    "date": "2026-01-10",
+    "notes": "Currency code not normalized"
+  }
+]
